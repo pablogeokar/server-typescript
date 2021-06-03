@@ -8,7 +8,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon src/index.ts",
-    "build": "tsc --project ./src",
+    "build": "tsc",
     "start": "node ./build/index.js"
   },
   "dependencies": {
